@@ -121,8 +121,15 @@ div#infobox
 }
 img#lien.element3
 {
-    width: 130px;
+    width: 50px;
     height: auto;
+}
+img#homebutton1
+{
+    width: 60px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+
 }
 
 
