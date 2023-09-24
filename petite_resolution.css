@@ -1,0 +1,51 @@
+@media all and (max-width: 1024px)
+    {
+        nav
+        {
+            width: auto;
+            text-align: left;
+        }
+        
+        nav ul
+        {
+            flex-direction: row;
+        }
+    
+        nav li
+        {
+            padding-left: 4px;
+        }
+        
+        nav a
+        {
+            font-size: 1.1em;
+        }
+        
+        nav a:hover
+        {
+            border-bottom: 0;
+        }
+        ul#bloc_page.button
+        {
+        display: inline-flex;
+        position: relative;
+        left: 10%;
+        
+        top: auto;
+
+        
+        }
+    }
+@media all and (max-width: 400px)
+    {
+        ul#bloc_page.button
+        {
+        display: inline-flex;
+        position: relative;
+        left: 5%;
+        
+        top: auto;
+
+        
+        }
+    }    

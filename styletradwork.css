@@ -1,0 +1,155 @@
+body
+{ 
+    size: initial;
+    background-color: #ffffff;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+
+}
+
+
+div.polaroid:nth-child(1) 
+{
+    display: flex;
+    position: right;
+}
+
+
+nav.div
+{
+    display: flex;
+}
+
+nav ul
+{
+    list-style-type: none;
+    color: #ffffff;
+    box-sizing: content-box;
+
+    
+    
+}
+
+nav li
+{
+    position:  relative;
+
+    margin-right: 30px;
+    margin-left: 30px;
+ 
+    
+    
+}
+
+nav a
+{
+    font-size: 1.6em;
+    color: #ffffff;
+    padding-bottom: 3px;
+    text-decoration: none;
+    
+    
+}
+
+nav a:hover
+{
+    color: #ffffff;
+    
+    
+}
+nav button
+{
+ position: relative;
+}
+ul
+{
+    padding-top: 3%;
+    margin-top: 0%;
+    display: flex;
+    
+}
+img#lien.element3:hover
+{
+    content: url(/assets/logo/insta-open.png);
+}    
+footer
+{
+    margin-top: 10%;
+    margin-left: 0%;
+    color: #000;
+    text-align: center;
+
+}
+div.info
+{
+    justify-content: center;
+    display: flex;
+    position: relative;
+    margin-left: 5%;
+}
+
+h1
+{
+    font-size: 25px;
+}
+div#infobox
+{
+    justify-content: space-around;
+    width: 110%;
+    height: 57.5px;
+    top: 0%;
+    display: flex;
+    float: none;
+    position: fixed;
+    z-index: 999;
+}
+
+div.gallery
+{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding-bottom: -1px;
+    justify-content: center;
+
+    
+
+       
+}
+div.gallery:nth-child(1) 
+{
+    display: flex;
+    position: right;
+}
+div.gallery#img
+{
+width: 46%;
+height: 45%;
+justify-content: center;
+}
+section
+{
+    margin-top: 200px;
+}
+.element
+{
+ margin: auto;
+}
+.element:nth-child(3)
+{
+    pointer-events: auto;
+}
+img#lien.element3
+{
+
+    height: auto;
+}
+img#lien.logo
+{
+    width: 10%;
+    height: auto;
+}
+
+
